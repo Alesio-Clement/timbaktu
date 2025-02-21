@@ -1,0 +1,163 @@
+
+.carousel-slide {
+
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-slide::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+  z-index: 1; /* Overlay stays behind content */
+}
+
+.carousel-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2; /* Ensures content is above overlay */
+  max-width: 80%;
+}
+
+.carousel-content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.carousel-content p {
+  font-size: 1rem;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+
+.carousel-slide img {
+  border-radius: 10px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+
+.carousel-content h2 {
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+.carousel-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.carousel-btn:hover {
+  background-color: #e64a19;
+}
+
+.bubble-animation span {
+  position: absolute;
+  height: 1.8rem;
+  width: 1.8rem;
+  border: 0.2rem solid green;
+  z-index: 100;
+  border-radius: 50%;
+}
+
+.bubble-animation span:nth-child(1) {
+  top: 80%;
+  left: 20%;
+  animation: bubble 30s linear infinite;
+  border-color: var(--yellow-light);
+}
+.bubble-animation span:nth-child(2) {
+  top: 65%;
+  left: 20%;
+  animation: bubble 40s linear infinite;
+  border-color: var(--green-light);
+}
+.bubble-animation span:nth-child(3) {
+  top: 60%;
+  left: 30%;
+  animation: bubble 50s linear infinite;
+  border-color: var(--red-light);
+}
+.bubble-animation span:nth-child(4) {
+  top: 95%;
+  left: 40%;
+  animation: bubble 60s linear infinite;
+  border-color: var(--yellow-light);
+}
+.bubble-animation span:nth-child(5) {
+  top: 105%;
+  left: 50%;
+  animation: bubble 70s linear infinite;
+  border-color: var(--orange);
+}
+.bubble-animation span:nth-child(6) {
+  top: 105%;
+  left: 60%;
+  animation: bubble 80s linear infinite;
+  border-color: var(--green-light);
+}
+.bubble-animation span:nth-child(7) {
+  top: 20%;
+  left: 60%;
+  animation: bubble 60s linear infinite;
+  border-color: var(--red-light);
+}
+.bubble-animation span:nth-child(8) {
+  top: 65%;
+  left: 80%;
+  animation: bubble 50s linear infinite;
+  border-color: var(--red-light);
+}
+.bubble-animation span:nth-child(9) {
+  top: 40%;
+  left: 90%;
+  animation: bubble 40s linear infinite;
+  border-color: var(--green-light);
+}
+
+@keyframes bubble {
+  0% {
+    transform: translateY(0vh);
+    opacity: 0;
+  }
+
+  5%,
+  95% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+
+.swiper-pagination-progressbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.3) !important;
+}
+
+.swiper-pagination-progressbar-fill {
+  background: #ff5722 !important; 
+}
+

@@ -1,0 +1,11 @@
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Banner } from "./banner/Banner";
+export { default as Title } from "./title/Title";
+export { default as Courses } from "./courses/Courses";
+export { default as CourseCard } from "./courseCard/CourseCard";
+export { default as Footer } from "./footer/Footer";
+export { default as Breadcrumb } from "./breadcrumb/Breadcrumb";
+export { default as DetailAside } from "./detailAside/DetailAside";
+export { default as DetailDescription } from "./detailDescription/DetailDescription";
+export { default as StyleSwitcher } from "./styleSwitcher/StyleSwitcher";
+export { default as Slider } from "./slider/Slider";
