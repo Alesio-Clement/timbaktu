@@ -1,11 +1,7 @@
 import {
-  web1,
   web2,
   web3,
-  web4,
   web5,
-  web6,
-  web7,
   web8,
   web9,
   web10,

@@ -14,13 +14,10 @@ const colors = [
 
 const StyleSwitcher = () => {
   const {
-    toggleStyleSwitcher,
     isStyleSwitcher,
     colorHandler,
     themeColor,
-    darkModeHandler,
     glassModeHandler,
-    darkMode,
     glassMode,
   } = useGlobalContext();
   return (

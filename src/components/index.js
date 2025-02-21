@@ -1,5 +1,4 @@
 export { default as Navbar } from "./navbar/Navbar";
-export { default as Banner } from "./banner/Banner";
 export { default as Title } from "./title/Title";
 export { default as Courses } from "./courses/Courses";
 export { default as CourseCard } from "./courseCard/CourseCard";

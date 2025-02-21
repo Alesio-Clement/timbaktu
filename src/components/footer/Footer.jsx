@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
           <div className="footer-copyright col-12 text-center py-3 ">
             <p>
-              &copy;{new Date().getFullYear()} All rights Reserved | Developed <a href="">AlessionTech</a>
+              &copy;{new Date().getFullYear()} All rights Reserved | Developed <Link to="alessiontech.co.ke">AlessionTech</Link>
             </p>
           </div>
         </div>

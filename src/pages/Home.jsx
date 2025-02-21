@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Slider, Banner, Courses } from "../components";
+import {Slider, Courses } from "../components";
 
 const Home = () => {
   return (
