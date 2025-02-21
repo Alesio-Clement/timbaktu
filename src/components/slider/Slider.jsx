@@ -22,54 +22,54 @@ const Slider = () => {
   return (
     <section className="my-0">
       <Swiper
-  modules={[Pagination, Autoplay, EffectCube]}
-  effect="cube"
-  cubeEffect={{ shadow: true, slideShadows: true, shadowOffset: 20, shadowScale: 0.94 }}
-  pagination={{ clickable: true, type: "bullets" }}
-  autoplay={{ delay: 5000 }}
-  loop={true}
->
-  {slides.map((slide) => (
-    <SwiperSlide key={slide.id}>
-      <div className="carousel-slide">
-        <motion.img
-          src={slide.image}
-          alt={slide.title}
-          className="parallax-image"
-          data-swiper-parallax="-50%"
-          initial={{ scale: 1.2 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 3, ease: "easeOut" }}
-        />
-        <div className="carousel-content">
-          <motion.h2
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-          >
-            {slide.title}
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.3 }}
-          >
-            {slide.text}
-          </motion.p>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.5 }}
-          >
-            <Link to={slide.link} className="theme-btn">
-              JOIN NOW
-            </Link>
-          </motion.div>
-        </div>
-      </div>
-    </SwiperSlide>
-  ))}
-</Swiper>
+        modules={[Pagination, Autoplay, EffectCube]}
+        effect="cube"
+        cubeEffect={{ shadow: true, slideShadows: true, shadowOffset: 20, shadowScale: 0.94 }}
+        pagination={{ clickable: true, type: "bullets" }}
+        autoplay={{ delay: 5000 }}
+        loop={true}>
+
+        {slides.map((slide) => (
+          <SwiperSlide key={slide.id}>
+            <div className="carousel-slide">
+              <motion.img
+                src={slide.image}
+                alt={slide.title}
+                className="parallax-image"
+                data-swiper-parallax="-50%"
+                initial={{ scale: 1.2 }}
+                animate={{ scale: 1 }}
+                transition={{ duration: 3, ease: "easeOut" }}
+              />
+              <div className="carousel-content">
+                <motion.h2
+                  initial={{ opacity: 0, y: 50 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, ease: "easeOut" }}
+                >
+                  {slide.title}
+                </motion.h2>
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1, delay: 0.3 }}
+                >
+                  {slide.text}
+                </motion.p>
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                >
+                  <Link to={slide.link} className="theme-btn">
+                    JOIN NOW
+                  </Link>
+                </motion.div>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </section>
   );
 };
