@@ -12,11 +12,11 @@ export const courses = [
   {
     id: 1,
     title: "Introduction to Web Programming",
-    price: "KSH 30,000",
+    price: "KSH 20,000",
     category: "web",
     course_img: web3,
     details: {
-      price_new: "KSH 30,000",
+      price_new: "KSH 20,000",
       features: [
         { icon: "fas fa-business-time", title: "Duration: 12 weeks" },
         { icon: "fas fa-calendar-week", title: "4 hours / week" },
@@ -42,7 +42,7 @@ export const courses = [
   {
     id: 2,
     title: "Coding for Kids",
-    price: "KSH 6,000",
+    price: "KSH 5,000",
     category: "kids",
     course_img: web2,
     details: {
@@ -72,11 +72,11 @@ export const courses = [
   {
     id: 3,
     title: "Mobile App Development",
-    price: "KSH 35,000",
+    price: "KSH 25,000",
     category: "web",
     course_img: web8,
     details: {
-      price_new: "KSH 35,000",
+      price_new: "KSH 25,000",
       features: [
         { icon: "fas fa-business-time", title: "Duration: 12 weeks" },
         { icon: "fas fa-calendar-week", title: "4 hours / week" },
@@ -171,7 +171,7 @@ export const courses = [
     category: "d_m",
     course_img: web10,
     details: {
-      price_new: "KSH 35,000",
+      price_new: "KSH 10,000",
       features: [
         { icon: "fas fa-business-time", title: "Duration: 4 Weeks" },
         { icon: "fas fa-calendar-week", title: "4 hours / week" },

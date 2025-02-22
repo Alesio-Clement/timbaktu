@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./detailAside.css";
+import { SignUp } from "../../pages";
 
 const DetailAside = ({ image, details }) => {
   if (!details) return <div>No details available</div>;
@@ -29,9 +31,9 @@ const DetailAside = ({ image, details }) => {
 
       {/* Enroll Button */}
       <div className="aside-btn mt-3">
-        <button type="button" className="theme-btn w-100 fw-bold">
+      <Link to="/signup" className="theme-btn w-100 fw-bold">
           Enroll Now
-        </button>
+        </Link>
       </div>
     </aside>
   );

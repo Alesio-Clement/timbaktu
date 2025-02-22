@@ -6,5 +6,4 @@ export { default as Footer } from "./footer/Footer";
 export { default as Breadcrumb } from "./breadcrumb/Breadcrumb";
 export { default as DetailAside } from "./detailAside/DetailAside";
 export { default as DetailDescription } from "./detailDescription/DetailDescription";
-export { default as StyleSwitcher } from "./styleSwitcher/StyleSwitcher";
 export { default as Slider } from "./slider/Slider";

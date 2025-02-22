@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
-import about from "../assets/img/abt1.jpg";
-import about2 from "../assets/img/abt2.jpg";
-import about3 from "../assets/img/abt3.jpg";
+import about from "../assets/img/abt1.webp";
+import about2 from "../assets/img/abt2.webp";
+import about3 from "../assets/img/abt3.webp";
 
 
 const About = () => {

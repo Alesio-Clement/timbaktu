@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { Breadcrumb } from "../components";
 
-const LogIn = () => {
+const Thanks = () => {
   return (
     <>
       <Breadcrumb current="LogIn" />
@@ -49,4 +49,4 @@ const LogIn = () => {
   );
 };
 
-export default LogIn;
+export default Thanks;

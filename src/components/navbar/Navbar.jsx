@@ -71,11 +71,9 @@ const Navbar = () => {
                   className="nav-link px-3 px-lg-0"
                   to="/about"
                 >
-                 About us
+                 About Us
                 </Link>
               </li>
-
-          
 
               <li className="nav-item me-5 ">
                 <Link
@@ -83,7 +81,7 @@ const Navbar = () => {
                   className="nav-link px-3 px-lg-0"
                   to="/contact"
                 >
-                  Contact us
+                  Contact Us
                 </Link>
               </li>
 

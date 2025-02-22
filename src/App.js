@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar,Footer, StyleSwitcher } from "./components";
+import { Navbar,Footer } from "./components";
 import ConfigRoutes from "./ConfigRoutes";
 
 const App = () => {
@@ -8,7 +8,6 @@ const App = () => {
       <Navbar />
       <ConfigRoutes />
       <Footer/>
-      <StyleSwitcher/>
     </div>
   );
 };

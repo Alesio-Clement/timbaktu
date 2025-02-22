@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 import "./footer.css";
 
 const Footer = () => {
@@ -45,7 +43,7 @@ const Footer = () => {
           </div>
           <div className="footer-copyright col-12 text-center py-3 ">
             <p>
-              &copy;{new Date().getFullYear()} All rights Reserved | Developed <Link to="alessiontech.co.ke">AlessionTech</Link>
+              &copy;{new Date().getFullYear()} All rights Reserved | Developed <a  target="_blank" href="www.alessiontech.co.ke">AlessionTech</a>
             </p>
           </div>
         </div>

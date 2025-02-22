@@ -7,9 +7,9 @@ import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 import "swiper/css/effect-cube";
 import { Pagination, Autoplay,EffectCube } from "swiper/modules";
-import slider1 from "../../assets/img/slider1.jpg";
-import slider2 from "../../assets/img/slider2.jpg";
-import slider3 from "../../assets/img/slider3.jpg";
+import slider1 from "../../assets/img/slider1.webp";
+import slider2 from "../../assets/img/slider2.webp";
+import slider3 from "../../assets/img/slider3.webp";
 import "./slider.css";
 
 const Slider = () => {
