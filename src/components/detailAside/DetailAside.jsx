@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./detailAside.css";
-import { SignUp } from "../../pages";
 
 const DetailAside = ({ image, details }) => {
   if (!details) return <div>No details available</div>;

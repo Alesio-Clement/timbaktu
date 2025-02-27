@@ -2,9 +2,6 @@ import React from "react";
 import { Breadcrumb, Title, CourseCard } from "../components";
 import { courses } from "../assets/data/data";
 
-
-console.log("Courses Data:", courses);
-
 const Courses = () => {
   return ( 
     <div className="container mb-5">
