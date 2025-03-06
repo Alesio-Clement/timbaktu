@@ -21,7 +21,7 @@ const Footer = () => {
                   <i className="fas fa-envelope"></i>
                 </div>
                 <div className="contact-text">
-                  <h6>info@timbaktu.co.ke</h6>
+                  <h6>info@timbaktu.africa</h6>
                 </div>
               </div>
               <div className="col-md-4 d-flex align-self-center justify-content-center">

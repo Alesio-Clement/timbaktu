@@ -4,9 +4,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/effect-coverflow";
-import "swiper/css/effect-cube";
-import { Pagination, Autoplay, EffectCube } from "swiper/modules";
+import "swiper/css/effect-fade"; // Import the fade effect
+import "swiper/css/autoplay"; // Import autoplay module
+import { Pagination, Autoplay, EffectFade } from "swiper/modules";
 import slider1 from "../../assets/img/slider1.webp";
 import slider2 from "../../assets/img/slider2.webp";
 import slider3 from "../../assets/img/slider3.webp";
@@ -40,17 +40,14 @@ const Slider = () => {
   return (
     <section className="my-0">
       <Swiper
-        modules={[Pagination, Autoplay, EffectCube]}
-        effect="cube"
-        cubeEffect={{
-          shadow: true,
-          slideShadows: false, // Disable shadows to reduce flickering
-          shadowOffset: 20,
-          shadowScale: 0.94,
+        modules={[Pagination, Autoplay, EffectFade]} // Using EffectFade instead of EffectCube
+        effect="fade" // Fade effect for smoother transitions
+        fadeEffect={{
+          crossFade: true, // Crossfade effect between slides
         }}
-        pagination={{ clickable: true, type: "bullets" }}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
-        loop={true}
+        pagination={{ clickable: true, type: "bullets" }} // Bullet pagination
+        autoplay={{ delay: 5000, disableOnInteraction: false }} // Auto slide every 5 seconds
+        loop={true} // Looping slider
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={slide.id}>

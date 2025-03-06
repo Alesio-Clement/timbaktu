@@ -65,7 +65,7 @@ const Contact = () => {
                   </div>
                   <div className="item-text">
                     <h5>Email</h5>
-                    <p>info@timbaktu.co.ke</p>
+                    <p>info@timbaktu.africa</p>
                   </div>
                 </div>
               </div>

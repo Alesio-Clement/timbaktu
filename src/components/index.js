@@ -7,3 +7,4 @@ export { default as Breadcrumb } from "./breadcrumb/Breadcrumb";
 export { default as DetailAside } from "./detailAside/DetailAside";
 export { default as DetailDescription } from "./detailDescription/DetailDescription";
 export { default as Slider } from "./slider/Slider";
+export { default as Learning } from "./learning/Learning";
