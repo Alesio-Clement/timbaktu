@@ -161,3 +161,43 @@
   background: #ff5722 !important; 
 }
 
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .carousel-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .carousel-content p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-content p {
+    font-size: 1.1rem;
+  }
+
+  .carousel-slide img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .carousel-content p {
+    font-size: 1.1rem;
+  }
+
+  .carousel-slide img {
+    height: 300px;
+  }
+}
+
